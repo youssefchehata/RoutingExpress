@@ -1,0 +1,31 @@
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around
+}
+
+ul li{
+    display: inline-block;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-size: 18px;
+    width: 93px;
+    height: 34px;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+ul a:hover{
+    color: #1f66e6;
+    background-color: chartreuse;
+    
+}
+
+main h1{
+    text-align: center
+}
